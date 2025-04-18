@@ -4,12 +4,15 @@ import (
     "os"
     "fmt"
     "flag"
-    "strconv"
+    // "strconv"
 )
 
 type SolutionFunc func([]byte) (int)
 
 func first_solution(data []byte) (int) {
+    var dataString string = string(data)
+
+    println("File input:", dataString)
     panic("Please implement first solution")
     return 0
 }
